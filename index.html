@@ -1,0 +1,431 @@
+
+
+<!DOCTYPE html>
+<html> 
+
+<head>
+<link rel="stylesheet"
+href="style.css" type="text/css">
+
+<link rel="stylesheet"
+href="bootstrap.css" type="text/css">
+
+<script src="bootstrap.js" type="text/javascript"></script>
+<style>/* Stylesheet 1: */ 
+
+body { 
+
+font: 100% Lucida Sans, Verdana; 
+
+margin: 20px; 
+
+line-height: 26px; 
+background-color:Wheat;
+} 
+
+
+
+.container { 
+
+xmin-width: 900px; 
+
+} 
+
+
+
+.wrapper { 
+
+position: relative; 
+
+overflow: auto; 
+
+} 
+
+
+
+#top, #sidebar, #bottom, .menuitem { 
+
+border-radius: 4px; 
+
+margin: 4px; 
+
+} 
+
+
+
+#top { 
+
+background-color:blue; 
+
+color:teal; 
+
+padding: 15px; 
+
+} 
+
+
+
+#menubar { 
+
+width: 200px; 
+
+float: left 
+
+} 
+
+
+
+#main { 
+
+padding: 10px; 
+
+margin: 0 210px; 
+
+} 
+
+
+
+#sidebar { 
+
+background-color: #32a4e7; 
+
+color: teal; 
+
+padding: 10px; 
+
+width: 180px; 
+
+bottom: 0; 
+
+top: 0; 
+
+right: 0; 
+
+position: absolute; 
+
+} 
+
+
+
+#bottom { 
+
+border: 1px solid #d4d4d4; 
+
+background-color: red; 
+
+text-align: center; 
+
+padding: 10px; 
+
+font-size: 70%; 
+
+line-height: 14px; 
+
+} 
+
+
+
+#top h1, #top p, #menulist { 
+
+margin: 0; 
+
+padding: 0; 
+
+} 
+
+
+
+.menuitem { 
+
+background-color:crimson; 
+
+border: 1px solid #d4d4d4; 
+
+list-style-type: none; 
+
+padding: 2px; 
+
+cursor: pointer; 
+
+} 
+
+
+
+.menuitem:hover { 
+
+background-color:crimson; 
+
+} 
+
+
+
+.menuitem:first-child { 
+
+background-color:crimson; 
+
+color: white; 
+
+font-weight:bold; 
+
+} 
+
+
+
+a { 
+
+color: olive; 
+
+text-decoration: underline; 
+
+} 
+
+
+
+a:hover { 
+
+text-decoration: none; 
+
+} 
+
+
+
+
+
+@media (max-width: 800px) { 
+
+#sidebar { 
+
+width: auto; 
+
+position: relative; 
+
+} 
+
+#main { 
+
+margin-right: 0; 
+
+} 
+
+
+
+} 
+
+
+
+@media (max-width: 600px) { 
+
+#menubar { 
+
+width: auto; 
+
+float: none; 
+
+} 
+
+#main { 
+
+margin: 0; 
+
+} 
+
+} 
+
+</style> 
+
+</head> 
+
+<body> 
+
+
+
+<div class="container wrapper"> 
+
+<div id="top"> 
+
+
+<h1 align="center">CV</h1> 
+
+</div> 
+
+<div class="wrapper"> 
+
+<div id="menubar"> 
+
+<ul id="menulist"> 
+
+<li class="menuitem" onclick="reStyle(0)">QUALIFICATIONS
+
+<li class="menuitem" onclick="reStyle(1)">PROGRAMMING LANGUAGES KNOWN
+
+<li class="menuitem" onclick="reStyle(2)">LINGUISTIC SKILLS
+
+<li class="menuitem" onclick="reStyle(3)">HOBBIES 
+
+<li class="menuitem" onclick="noStyles()">ACHIEVEMENTS
+
+<li class="menuitem" onclick="noStyles()">CO-CURRICULAR ACTIVITIES
+
+<li class="menuitem" onclick="noStyles()">DECLARATION
+
+</ul> 
+
+</div> 
+
+<div id="main">  
+
+
+<img src="C:\Users\Manaswini\Pictures\Saved Pictures\image.jpeg" align="center" alt="Profile" height="140" width="140">
+
+<h2 style="text-align:left; font-weight:bold; color:purple"> RP MANASWINI JAIN </h2>
+
+<p> <h3> USN:</h3> 1SI17CS079 </P>
+<img src="C:\Users\Manaswini\Pictures\whatsapp.PNG" height="60" width="60">
+<p> <h3>Phno:</h3> 8296633341 </p>
+
+<p><h3> Email:</h3> manaswinijain728@gmail.com </p>
+
+<p><h3> Address:</h3> D/O RA Phaneendra D.NO_9-1-54/4 panduranganagar,Hindupur_515201.Anatapur dist,AP. </p>
+
+<p><h3> Date of Birth:</h3>25 Apr,1999 </p>
+<img src="C:\Users\Manaswini\Pictures/mail.PNG" height="70"  width="70">
+<h3> Email To <a href="mailto:manaswinijain728@gmail.com"> mail </a> </h3>
+
+<p><h3> Gender: </h3> Female</p>
+
+<p><h3>Nationality:</h3> Indian</p>
+
+<hr>
+
+<h3 align ="left"> QUALIFICATIONS </h3>
+
+<table cellspacing="70">
+<tr>
+  <td>
+    <h4>DEGREE</h4>
+  </td>
+  <td>
+    <h4>INSTITUTION</h4>
+  </td>
+  <td>
+    <h4> PERCENTAGE/CGPA </h4>
+  </td> 
+</tr>
+<tr>
+  <td>
+    <p class="main"> B.E </p>
+  </td>
+  <td>
+    <p class="change"> SIT,Tumkur </p>
+  </td>
+  <td>
+    <p> -</p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <p>PU</p>
+  </td>
+  <td>
+    <p> Sri Chaitanya,Shanta Bhavan,vijaywada </p>
+  </td>
+  <td>
+    <p> 90% </p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <p>S.S.L.C</p>
+  </td>
+  <td>
+   <p> Sri Chaitanya Techno School,Hindupur </p>
+  </td>
+  <td>
+    <p> 9.3 </p>
+  </td>
+</tr>
+</table>
+
+<hr>
+<h3> PROGRAMMING LANGUAGES KNOWN </h3>
+  <p> C,C++,JAVA </p>
+<hr>
+<h3> LINGUISTIC SKILLS </h3>
+  <p> To Speak,To Read,To Write:</p>
+    <table>
+      <tr> 
+       <p> English </p>
+      </tr>
+      <tr>
+       <p> Telugu </p>
+      </tr>
+      <tr> 
+       <p> Kannada </p>
+      </tr>
+      <tr>
+       <p> Hindi </p>  
+      </tr>
+     </table>
+<hr>
+<h3> HOBBIES </h3>
+<table>
+<tr>
+<p> *Watching cricket and movies</p>
+</tr>
+<tr>
+<p> *Playing shuttle,kabbadi and Throw ball </p>
+</tr>
+<tr>
+<p>*Driving,Reading mythology and mystery books</p>
+</tr>
+</table>
+<hr>
+<h3>ACHIEVEMENTS</h3>
+<table>
+<tr>
+<p> *I had awarded by prathibha award in SSLC</p>
+</tr>
+<tr>
+<p><span class="main"> *Winner in Kabbadi in district level and runner in badminton </p>
+</tr>
+<tr>
+<p>*School Pupil Leader in our school</p>
+</tr>
+<tr>
+<p>*Throw Ball winner in Browse of SIT college</p>
+</tr>
+</table>
+<hr>
+<h3>CO-CURRICULAR ACTIVITIES</h3>
+<table>
+<tr>
+<p> *I have attended a workshop on NODE JS,HADOOP,ARTIFICIAL INTELLIGENCE,SDLC in SIT college for 3 days</p>
+</tr>
+<tr>
+<p> *Have been volunteer in Browse </p>
+</tr>
+</table>
+<hr>
+<h3>DECLARATION</h3>
+<p>I here by declare the furnished above information are true to my knowlwdge</p>
+
+
+
+
+<form action ="index.html"method="get">
+
+
+First Name:<input type="text"name="fname"><br>
+
+Last Name:<input type="text"name="fname"><br>
+
+
+<input type="Submit"value="Submit">
+</p> 
+
+</body> 
+
+</html> 
+
+
+
